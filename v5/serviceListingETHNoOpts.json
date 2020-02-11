@@ -1,0 +1,97 @@
+{
+  "metadata": {
+    "contractType": "SERVICE",
+    "format": "FIXED_PRICE",
+    "escrowTimeoutHours": 1080,
+    "expiry": "2037-12-31T05:00:00.000Z",
+    "acceptedCurrencies": [
+      "TBTC",
+      "TBCH",
+      "TLTC",
+      "TZEC",
+      "TETH"
+    ]
+  },
+  "item": {
+    "title": "API testing service listing with options",
+    "description": "This is a listing example for testing orders.",
+    "processingTime": "3 days",
+    "bigPrice": "4500000000000000",
+    "priceCurrency": {
+      "code": "ETH",
+      "divisibility": 18
+    },
+    "tags": [
+      "vintage dress"
+    ],
+    "images": [
+      {
+        "filename": "front",
+        "tiny": "QmbjyAxYee4y3443kAMLcmRVwggZsRDKiyXnXus1qdJJWz",
+        "small": "QmVsoT9iabv6GZhxhvtjSpQMJA6QyMivGTs6MmHJr6TBm9",
+        "medium": "QmTJfeeapZwFM8EoZAuf16JsSJyxZtKaAR6hmWiMf4CTcF",
+        "large": "QmfTKL3Z67mWKTKf9XKSCj1ptmDRaZLr5yjPS4JrVDgo5h",
+        "original": "QmNexx7SaJCVCjyGGG3j2k7fenn3iVhtWdm9RvKvT7GTLq"
+      },
+      {
+        "filename": "cream",
+        "tiny": "QmU1cBgjyHpuzDYbEd4iDVuPzxgKM3CqhRhDJqkHWCKBXq",
+        "small": "QmP3BVFuga7N4XEX8iU2MFYC7pc6mfTRQRrpZbKiVy2Csr",
+        "medium": "QmQaSzaoHzp8raZLtPEFyCjTnwfXvDGKdXFM83STDVWG43",
+        "large": "QmNsFdsX2LNALG2WBxw6E6FTPZWgJcRAcLHnKdWczrCNf9",
+        "original": "QmTEUnCjuQPj1ggj5UL5vJujkgBiNYY4jkteugnogiCJny"
+      },
+      {
+        "filename": "black",
+        "tiny": "QmdA3Nmc8VnwSvt98Deo2RQztEiCsAkNLhron73bnBzARe",
+        "small": "QmcADxUo89ZsEAWiYsuUk7hrgjWDMKXL1CtoA9sTNrQFFP",
+        "medium": "QmZydpAJoLsJWbP5vmh59W6bW1kuiCV34yD62hq28AtP7b",
+        "large": "QmXixGseetihe6vZiWcTw9N1pieok1YtRoxwvyd5d7jz6s",
+        "original": "QmZsZ78FJwt281gfeUvGzDnsBW7WNjPWW3aJWDKskhpCRr"
+      },
+      {
+        "filename": "other_red",
+        "tiny": "QmbRFtxNWqACak1vvMJrrxUjzWjTJbMqi3vdUK5ZYvibgt",
+        "small": "QmRdYph9YrfpdzMsaDnuySj6U4AY9dZhmjd8Cv2e6SscUG",
+        "medium": "QmcD4pkp7SwCmN95pFnED2hz1LfsoYTPpynxeZbxCMoYPL",
+        "large": "QmbSQZNAL3pZspUYWm6WNBD1oEQ6i9EnWPEsnk1DfdKnAv",
+        "original": "QmZpgjK4jXmdqPg8Jt9YHGVmiuowVve3sbN2AZx7GXioDF"
+      }
+    ],
+    "categories": [
+      "👚 Apparel & Accessories"
+    ],
+    "condition": "New",
+    "options": [],
+    "skus": [],
+    "nsfw": false
+  },
+  "shippingOptions": [],
+  "taxes": [
+    {
+      "taxType": "Sales tax",
+      "taxRegions": [
+        "AUSTRIA"
+      ],
+      "taxShipping": true,
+      "percentage": 1
+    }
+  ],
+  "coupons": [
+    {
+      "title": "DASCOUPON",
+      "discountCode": "LETMEIN",
+      "bigPriceDiscount": "45000000000000"
+    },
+    {
+      "title": "DASCOUPONPERC",
+      "discountCode": "LETMEIN",
+      "percentDiscount": 1
+    }
+  ],
+  "moderators": [
+    "{{moderatorID}}"
+  ],
+  "termsAndConditions": "These are my terms and conditions.",
+  "refundPolicy": "This is my refund policy."
+}
